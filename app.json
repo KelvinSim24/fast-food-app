@@ -34,6 +34,14 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "reactnative_food-ordering",
+          "organization": "kelvin-sim"
+        }
       ]
     ],
     "experiments": {
