@@ -7,19 +7,19 @@ This is a simple fast food ordering mobile app built using **React Native (Expo)
 ## 📸 Project Showcase
 
 ### Sign In Page(Authenthication)
-![Sign In](assets/screenshots/SignIn(Food).png)
+![Sign In](assets/ScreenShots/SignIn(Food).PNG)
 
 ### 🏠 Home Screen  
-![Home Screen](assets/screenshots/Home(Food).jpg)
+![Home Screen](assets/ScreenShots/Home(Food).JPG)
 
 ### 📃 Food Details  
-![Food Details](assets/screenshots/Search(Food).png)
+![Food Details](assets/ScreenShots/Search(Food).JPG)
 
 ### 🛒 Cart Page  
-![Cart](assets/screenshots/Cart(Food).jpg)
+![Cart](assets/ScreenShots/Cart(Food).JPG)
 
 ### 🛒 Profile Page  
-![Profile](assets/screenshots/Profile(Food).jpg)
+![Profile](assets/ScreenShots/Profile(Food).PNG)
 
 ---
 
