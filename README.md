@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# 🍔 Fast Food Ordering App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple fast food ordering mobile app built using **React Native (Expo)**. The app allows users to browse food items, manage orders and track trending picks. Styled with **NativeWind**, state managed by **Zustand**, backend powered by **Appwrite**, and errors handled by **Sentry**.
 
-## Get started
+---
 
-1. Install dependencies
+## 📸 Project Showcase
 
-   ```bash
-   npm install
-   ```
+### Sign In Page(Authenthication)
+![Sign In](assets/screenshots/SignIn(Food).png)
 
-2. Start the app
+### 🏠 Home Screen  
+![Home Screen](assets/screenshots/Home(Food).jpg)
 
-   ```bash
-   npx expo start
-   ```
+### 📃 Food Details  
+![Food Details](assets/screenshots/Search(Food).png)
 
-In the output, you'll find options to open the app in a
+### 🛒 Cart Page  
+![Cart](assets/screenshots/Cart(Food).jpg)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🛒 Profile Page  
+![Profile](assets/screenshots/Profile(Food).jpg)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## ✅ Features
 
-When you're ready, run:
+- Clean, mobile-friendly interface using **NativeWind**
+- Simple and smooth navigation with **Expo Router**
+- **Zustand** for lightweight state management (cart, user info)
+- **Appwrite** as backend for storing user data and orders
+- **Sentry** integration for real-time error tracking
+- Cross-platform: works on **Android**, **iOS**, and **Web**
+- Custom splash screen and app icons
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📑 Notes
 
-## Learn more
+- App is powered by **Expo** for fast mobile development.
+- Uses **Appwrite** for handling backend operations like storing orders.
+- **Zustand** makes managing app state (like cart items) simple and clean.
+- **Sentry** is integrated for monitoring crashes or errors in production.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📦 Project Setup
+1. git clone https://github.com/yourusername/fast-food-app.git
+2. cd fast-food-app
+3. npm install
+4. npx expo start
