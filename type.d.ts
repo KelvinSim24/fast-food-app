@@ -19,7 +19,8 @@ export interface Category extends Models.Document {
 export interface User extends Models.Document {
     name: string;
     email: string;
-    avatar: string;
+    accountId: string;
+    avatar?: string;
 }
 
 export interface CartCustomization {
@@ -51,8 +52,10 @@ export interface CartStore {
 
 interface TabBarIconProps {
     focused: boolean;
-    icon: ImageSourcePropType;
     title: string;
+    useIonicon?: boolean;
+    icon?: any;
+    iconName?: string;
 }
 
 interface PaymentInfoStripeProps {
@@ -105,3 +108,4 @@ interface GetMenuParams {
     category: string;
     query: string;
 }
+

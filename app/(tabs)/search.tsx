@@ -24,6 +24,9 @@ const Search = () => {
 
    console.log(data);
 
+    // @ts-ignore
+    // @ts-ignore
+    // @ts-ignore
     return (
         <SafeAreaView className={'bg-white h-full'}>
             <FlatList
@@ -47,7 +50,7 @@ const Search = () => {
                             <View className={'flex-start'}>
                                 <Text className={'small-bold uppercase text-primary'}>Search</Text>
                                 <View className={'flex-start flex-row gap-x-1 mt-0.5'}>
-                                    <Text className={'paragraph-bold text-dark-100'}>Find your favourtie food</Text>
+                                    <Text className={'paragraph-bold text-dark-100'}>Find your favourite food</Text>
                                 </View>
                             </View>
 
@@ -56,7 +59,7 @@ const Search = () => {
 
                         <SearchBar />
 
-                        <Filter categories={categories!}/>
+                        <Filter categories={categories} />
                     </View>
                 )}
 

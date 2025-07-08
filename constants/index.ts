@@ -199,4 +199,5 @@ export const images = {
     star,
     trash,
     user,
+    profile: require("@/assets/icons/sasuke.jpg"),
 };
